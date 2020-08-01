@@ -2,6 +2,7 @@
 
 //1(while)
 
+'use strict';
 let i = 1;
 while(i < 100){
     console.log(i);
@@ -10,12 +11,14 @@ while(i < 100){
 
 //(for)
 
+'use strict';
 for(let i = 1; i < 100; i++){
     console.log(i);
 }
 
 //2(while)
 
+'use strict';
 let i = 11;
 while(i < 33){
     console.log(i);
@@ -24,12 +27,14 @@ while(i < 33){
 
 //(for)
 
+'use strict';
 for(let i = 11; i < 33; i++){
     console.log(i);
 }
 
 //3(while)
 
+'use strict';
 let i = 0;
 
 while(i < 100){
@@ -41,6 +46,7 @@ while(i < 100){
 
 //(for)
 
+'use strict';
 for(let i = 0; i < 100; i++){
     if(i % 2 == 0){
         console.log(i);
@@ -49,6 +55,7 @@ for(let i = 0; i < 100; i++){
 
 //4(while)
 
+'use strict';
 let i = 1;
 let sum = 0;
 while(i < 100){
@@ -59,6 +66,7 @@ console.log(sum);
 
 //(for)
 
+'use strict';
 let i = 1;
 let sum = 0;
 for(i; i < 100; i++){
@@ -95,6 +103,7 @@ for (let i = 0; i < 5; ++i) alert( i );
 
 //4
 
+'use strict';
 for (let i = 2; i < 10; i++){
     if (i % 2 == 0){
         console.log(i);
@@ -103,6 +112,7 @@ for (let i = 2; i < 10; i++){
 
 //5
 
+'use strict';
 let i = 0;
 
 while(i < 3){
@@ -112,6 +122,7 @@ while(i < 3){
 
 //6
 
+'use strict';
 let num;
 
 do{
@@ -121,6 +132,7 @@ do{
 
 //7
 
+'use strict';
 natNumb:
 for(let i = 2; i < 10; i++){
     for(let j = 2; j < i; j++){
