@@ -18,7 +18,7 @@ for(let i = 1; i < 100; i++){
 
 //2(while)
 
-'use strict';
+'use strict'; 
 let i = 11;
 while(i < 33){
     console.log(i);
