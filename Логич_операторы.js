@@ -27,6 +27,7 @@ if (a == 0 || a == 2){
 //Task3
 
 'use strict';
+
 let a = +prompt('Введите значение переменной a', '');
 let b = +prompt('Введите значение переменной b', '');
 let sum, dif;
