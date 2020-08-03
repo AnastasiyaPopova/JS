@@ -9,27 +9,24 @@ switch(num) {
 
     case 1:
         result = 'Зима';
-        console.log(result);
     break;
 
     case 2:
         result = 'Весна';
-        console.log(result);
     break;
 
     case 3:
         result = 'Лето';
-        console.log(result);
     break;
 
     case 4:
         result = 'Осень';
-        console.log(result);
     break;
 
     default:
-        console.log('Вы ввели неверные данные');
+        result = 'Вы ввели неверные данные';
 }
+console.log(result);
 
 
 //learnJavaScriptTasks
