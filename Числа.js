@@ -3,7 +3,7 @@
 
 //task1
 
-'use stict';
+'use strict';
 let a = +prompt('Введите первое число', 0);
 let b = +prompt('Введите второе число', 0);
 
@@ -14,7 +14,7 @@ console.log(sum);
 
 //task2
 
-'use stict';
+'use strict';
 let num = 6.35;
 
 console.log(Math.round(num * 10) / 10);
@@ -22,7 +22,7 @@ console.log(Math.round(num * 10) / 10);
 
 //task3
 
-'use stict';
+'use strict';
 function readNumber() {
     let num;
     do {
@@ -41,7 +41,7 @@ console.log(readNumber());
 
 //task4 
 
-'use stict';
+'use strict';
 function random (min, max) {
     return Math.random() * (max - min) + min;
 }
@@ -52,7 +52,7 @@ console.log(random(1,5));
 
 //task5
 
-'use stict';
+'use strict';
 function randomInteger(min, max){
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -69,7 +69,7 @@ console.log(randomInteger(1, 5));
 
 //task1
 
-'use stict';
+'use strict';
 let num = 3;
 
 console.log(num);
@@ -77,7 +77,7 @@ console.log(num);
 
 //task2
 
-'use stict';
+'use strict';
 let a = 10,
     b = 2;
 
@@ -89,7 +89,7 @@ console.log(a / b);
 
 //task3
 
-'use stict';
+'use strict';
 let c = 15,
     d = 2;
 
@@ -100,7 +100,7 @@ console.log(result);
 
 //task4
 
-'use stict';
+'use strict';
 let a = 17,
     b = 2,
     c = 5;
@@ -110,7 +110,7 @@ console.log(a + b + c);
 
 //task5
 
-'use stict';
+'use strict';
 let a = 17,
     b = 10;
 
